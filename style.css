@@ -7,10 +7,11 @@ body {
     justify-content: center;
     height: 100vh; /* Ensure the body takes up the full height of the viewport */
     margin: 0; /* Remove default margin */
+    flex-direction: column;
 }
 
 img {
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 350px;
     place-items: center;
 
@@ -23,7 +24,7 @@ h1 {
 }
 
 p {
-    font-size: 15pt;
+    font-size: 20pt;
     color: hsl(220, 15%, 55%);
 }
 
@@ -31,8 +32,18 @@ p {
     text-align: center;
     background-color: white;
     transition: 0.3s;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     padding: 15px;
     max-width: 350px;
+    margin-top: auto;
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
