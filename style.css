@@ -1,16 +1,33 @@
 body {
     font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    background-color: hsl(212, 45%, 89%);
+    max-width: 350px;
+    text-align: center;
 }
 
-.card-component {
-    font-size: 16px;
-}
+img {
+    border-radius: 10px;
+    max-width: 318px;
+    place-items: center;
 
+
+}
 
 h1 {
-    font-size: 17pt;
+    font-size: 19pt;
+    font-weight: 700;
 }
 
 p {
     font-size: 15pt;
+    color: hsl(220, 15%, 55%);
+}
+
+.card {
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 15px;
 }
