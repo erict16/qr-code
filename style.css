@@ -2,13 +2,16 @@ body {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     background-color: hsl(212, 45%, 89%);
-    max-width: 350px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
 }
 
 img {
     border-radius: 10px;
-    max-width: 318px;
+    max-width: 350px;
     place-items: center;
 
 
@@ -25,9 +28,11 @@ p {
 }
 
 .card {
+    text-align: center;
     background-color: white;
     transition: 0.3s;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     padding: 15px;
+    max-width: 350px;
 }
